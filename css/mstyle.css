@@ -1,0 +1,359 @@
+@charset "utf-8";
+@import url(http://fonts.googlepis.com/earlyaccess/notosanskr.css);
+boby,h1,h2,p{
+    margin: 0;
+}
+html,body{
+    margin: 0;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.cf:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+#wrap{
+    width:100%;
+    display: block;
+}
+#header{
+    width: 100%;
+    position: relative;
+    background:url(../img/common/bg_top.gif);
+}
+#header h1{
+    height: 40px;
+}
+#header h1 a img{
+    width: 130px;
+    height: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+#header h1 a{}
+.panel{
+    position: absolute;
+    top: 0;
+    right:0;
+    background: #10509d;
+    width: 40px;
+    height: 40px;
+}
+.panel a{
+    margin: 10px auto;
+    display: block;
+}
+.panel a span{
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin:5px auto;
+}
+.panel a:before,{
+    margin-top: 0 auto;
+}
+.panel a:before,.panel a:after{
+    width: 20px;
+    height: 2px;
+    content: "";
+    display: block;
+    background: #fff;
+    margin: 0 auto;
+        }
+.topmenu{
+    background: url(../img/common/bg_gnb.gif);
+    height: 30px;
+}
+.topmenu ul{
+    height: 100%;
+}
+.topmenu ul li{
+     float: left;
+     width: 20%;
+     text-align: center;
+     height: 100%;
+}
+.topmenu ul li a{
+    color: #c9c9c9;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 13px;
+    border-right: 1px solid #5a5a5a;
+    border-left: 1px solid #414141;
+    box-sizing: border-box;
+    height: 100%;
+    display: block;
+}
+#mainSlider{
+    width: 100%;
+}
+#mainSlider a img{
+    width: 100%;
+    display: block;
+}
+#mainSlider .bixbox{
+     position: absolute;
+     display: block; background:url(../img/main/blet_visual.png)no-repeat;
+     margin-top:-25px;
+     left: 10px;
+     width: 16px;
+     height: 16px;
+}
+#mainSlider .bixbox2{
+     position: absolute;
+     background:url(../img/main/blet_visual.png)no-repeat;
+     background-position: 0px -16px;
+     margin-top: -25px;
+     left: 30px;
+     width: 16px;
+     height: 16px;
+}
+#mainSlider .bixbox3{
+     position: absolute;
+     background:url(../img/main/blet_visual.png)no-repeat;
+     margin-top:-25px;
+     left: 50px;
+     width: 16px;
+     height: 16px;
+}
+#mainSlider .bixbox4{
+     position: absolute;
+     background:url(../img/main/blet_visual.png)no-repeat;
+     margin-top:-25px;
+     left: 70px;
+     width: 16px;
+     height: 16px;
+}
+#mainSlider .cnt_but{
+    position: absolute;
+    margin-top: -45px;
+    right: 92px;
+    background: url(../img/main/btn_visual_cnt.png)no-repeat;
+    width: 45px;
+    height: 45px;
+    
+}
+#mainSlider .cnt_but2{
+    position: absolute;
+    margin-top: -45px;
+    background: url(../img/main/btn_visual_cnt.png)no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: -92px;
+    right: 0px;
+} 
+#mainSlider .cnt_but3{
+    position: absolute;
+    margin-top: -45px;
+    background: url(../img/main/btn_visual_cnt.png)no-repeat;
+    width: 45px;
+    height: 45px;
+    right: 46px;
+    background-position: -46px;
+} 
+.Brandsite{
+    text-align: center;
+}
+.Brandsite a{
+    display: block;
+    height: 50px;
+}
+.Brandsite img{
+    width: 125px;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#section .imgSet{
+  
+}
+#section .imgSet .img1{
+    background: url(../img/main/brandSite_img01.jpg)no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 200px;
+   
+}
+#section .imgSet .img2{
+    background: url(../img/main/brandSite_img02.jpg)no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 200px;
+}
+#section .imgSet .img3{
+    background: url(../img/main/brandSite_img03.jpg)no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 200px;
+}
+#section .imgSet a{
+    left: 1rem;
+    color: #fff;
+    left: 1rem;             
+    padding-top: 130px;
+    padding-left: 10PX;
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#section .imgSet a span{
+     font-size:1.6rem;
+}
+#section .imgSet a p{
+    font-size: 1rem;
+}
+#centerImfobox{
+   display: block;
+}
+#centerImfobox div{
+    float: left;
+    margin-top: 0.2em;
+    margin-right: 0.1em;
+    background-color: #1c97fe;
+}
+#centerImfobox a{
+    width: 100%;
+}
+#centerImfobox a img{
+    width: 100%;
+}
+#centerImfobox a dl{
+    margin: 0;
+    color: #fff;
+    padding: 1em;
+    max-height: 100%;
+    text-align: left;
+}
+#centerImfobox a dl dt{
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    line-height: 1.4em;
+}
+#centerImfobox a dl dd{
+    font-size: 0.8em;
+    line-height: 1.2em;
+    text-align: left;
+    margin: 0;
+}
+#centerImfobox .Infobox1{
+    width: 50%;
+    float: left;
+    height: 285px;
+}
+#centerImfobox .Infobox2{
+    width: 50%;
+    float: left;
+    margin-right: -0.1em;
+    height: 285px;
+}
+#centerImfobox .Infobox3{
+    width: 50%;
+    float: left;
+    height: 250px;
+}
+#centerImfobox .Infobox4{
+    width: 50%;
+    float: left;
+    margin-right: -0.1em;
+    height: 250px;
+}
+.productView{
+   display: inline-block;
+    width: 100%;
+   
+}
+.productView p{
+
+}
+.productView .title{
+    text-align: center;
+    margin: 20px 0;
+}
+.productView .title img{
+    width: 40%;
+    max-width: 60%;
+}
+
+.fixbox{}
+.fixbox a{
+    display: block;
+}
+.fixbox a img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -60px;
+}
+.fixbox a dl{
+    color: #333;
+    padding: 1.2em;
+    margin: 0;
+}
+.fixbox a dl dt{
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+.fixbox a dl dd{
+    line-height:1.2em;
+    font-size: 0.7em;
+    margin: 0;
+}
+.fixbox div{
+    width: 50%;
+    float: left;
+    height: 120px;
+    position: relative;
+}
+}
+.fixbox .fix1{
+}
+.fixbox .fix2,.fixbox .fix3,.fixbox .fix6,.fixbox .fix7{
+    background: #f1f1f1;
+}
+.fixbox .fix3{}
+.fixbox .fix4{
+    
+}
+.fixbox .fix5{
+    height: 180px;
+    
+}
+.fixbox .fix6{
+    height: 180px;
+}
+
+#footer{
+    background: url(../img/common/bg_footer_new.gif);
+    font-size: 10px;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    letter-spacing: -1px;
+}
+#footer span{
+    border: 1px solid #FFF;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+}
+#footer span a{
+    color: #fff;
+    display: block;
+    padding: 5px 10px;
+}
+ 

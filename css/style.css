@@ -1,0 +1,356 @@
+body,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+body{
+    min-width: 1000px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.cf:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#wrap{
+    width: 100%;
+}
+
+#header{
+    padding-bottom: 30px;
+}
+.headerIn{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 20px;
+    border-bottom: 2px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+.headerIn h1{
+    width: 204px;
+    height: 28px;
+    background: url(../hompage/common/h1_samsungdisplay.gif)no-repeat;
+    text-indent: -9999px;
+    float: left;
+} 
+.headerIn h1 a{}
+.gnb{
+    float: left;
+    width:500px;
+    margin-left: 40px;
+}
+
+.gnb li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+.gnb li a{
+    display: block;
+    font-weight: 600;
+}
+.utill{
+    font-size: 0;
+    position: absolute;
+    right: 0;
+}
+.utill li{
+    height: 21px;
+    line-height: 21px;
+    padding-left: 15px;
+    font-size: 10px;
+    display: inline-block;
+}
+.utill .on1 a{
+    color: #007cc0;
+}
+.utill .on a{}
+
+
+#mainSlider{
+   position: relative;
+   height: 600px;
+   overflow: hidden;
+}
+#mainSlider a{
+    
+}
+#mainSlider a img{
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+.leftbtn{
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-left: -500px;
+    bottom: 30px;
+}
+.leftbtn li{
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url(../hompage/main/blet_visual.png)no-repeat;
+    text-indent: -9999px;
+    margin-right: 5px;
+    
+}
+.leftbtn li.on{
+    background-position: 0 -16px;
+}
+.rightbtn{
+    position: absolute;
+    right: 50%;
+    margin-right: -500px;
+    bottom: 0;
+}
+.rightbtn li{
+    float: left;
+    width: 45px;
+    height: 45px;
+    background: url(../hompage/main/btn_visual_cnt.png)no-repeat;
+    margin-left: 1px;
+    text-indent: -9999px;
+}
+.rightbtn li.on1{
+    background-position: -46px 0;
+}
+.rightbtn li.on2{
+    background-position: -92px 0;
+}
+.fncBox{
+    background-color: #1c97fe;
+    
+}
+.fncBox ul{
+    width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+.fncBox ul li{
+    float: left;
+    width: 230px;
+    height: 150px;
+    margin-left: 20px;
+}
+.fncpBox ul li:first-child{
+    margin-left: -20px;
+}
+.fncBox ul li h2{
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+.fncBox h2{
+    display: block;
+    font-size:23px;
+    width: 235px;
+}
+.fncBox ul li a{
+    width: 235px;
+    height: 150px;
+    box-sizing: border-box;
+    }
+
+.fncBox ul li a img{
+    width: 100%;
+    border: 0;
+    vertical-align: top;
+}
+.fncBox ul li a p{
+     color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: -2px;
+    padding: 0 5px;
+}
+.productView{
+    background: url(../hompage/main/brandSite_bg.png)50% no-repeat;
+}
+.productView .inner{
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.productView .inner h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.inner h2 img{}
+.inner .fixbox{
+    
+}
+.inner .fixbox li{
+    float: left;
+    width:230px;
+    margin-left: 20px;
+}
+.inner .fixbox li:first-child{
+    margin-left: 0;
+}
+.inner .fixbox li a{
+    width: 235px;
+    height: 150px;
+    box-sizing: border-box;
+}
+.inner .fixbox li a p{}
+.inner .fixbox li a p img{
+    width: 100%;
+    width: 230px;
+    height: 150px;
+}
+.inner .fixbox dl{
+    text-align: center;
+    font-size: 20px;
+   
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+.inner .fixbox dl dt{
+     font-weight: bold;
+}
+.inner .fixbox dl span{
+    font-size: 14px;
+}
+.inner .fixbox dl dd{
+    width: 130px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #263d94;
+    border-radius:20px;
+    color: #fff;
+}
+.brandSite{
+    height: 618px;
+    color: #fff;
+}
+.brandSite .inner{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.brandSite .inner h2{
+    text-align: center;
+     font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.inner .fix{
+    width: 1000px;
+     margin: 0 auto;
+}
+.inner .fix li{
+    float: left;
+    width: 320px;
+    background-color: #fff;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+    margin-left: 20px;
+}
+.inner .fix li:first-child{
+    margin-left: 0;
+}
+.inner .fix li a{}
+.inner .fix li a p{}
+.inner .fix li a p img{
+    width: 100%;
+   
+}
+.inner .fix dl{
+    padding: 30px 25px 25px 25px;
+    box-sizing: border-box;
+}
+.inner .fix dl dt{
+    font-size: 20px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+.inner .fix dl dt span{
+    font-size: 13px;
+    font-weight: initial;
+    
+}
+.inner .fix dl dd{
+    line-height: 18px;
+    margin: 0;
+    font-size: 13px;
+}
+.inner .fix dd.link{
+    width: 100px;
+    height: 30px;
+    border-radius:20px;
+    color: #fff;
+    background-color: #1c97fe;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+footer{
+    
+    padding: 30px 0;
+    border-top: 2px solid #e5e5e5;
+}
+.footerIn{
+    position: relative;
+    width: 1000px;
+     margin: 0 auto;
+}
+.footerIn h2{
+    
+    width:117px;
+    display: inline-block;
+}
+.footerIn .footerInfo{
+    width: 800px;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.footerInfo ul{
+    font-size: 0;
+}
+.footerInfo ul li{
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: -1px;
+    color: #ccc;
+    
+}
+.footerInfo ul li:before {
+    content: "｜";
+}
+.footerInfo ul li:first-child:before, .footerInfo ul li.info:before {
+    display: none;
+}
+.footerInfo ul li a{
+    color: #ccc;
+}
+.footerInfo ul li.info{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.footerMark{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.footerMark a{}
+.footerMark a img{}
